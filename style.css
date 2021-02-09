@@ -1,0 +1,82 @@
+/* ==========================================================================
+                                BASE
+========================================================================== */
+:root {
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+    --container_width: 80%
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+h1,
+h2 {
+    font-weight: bolder;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+
+p {
+    margin: 20px 0;
+}
+
+img {
+    width: 100%;
+    border: 0;
+}
+
+code,
+pre {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+i {
+    color: black;
+    margin: 1rem;
+}
+
+
+.container {
+    width: 50%;
+}
